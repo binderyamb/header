@@ -1,0 +1,12 @@
+.AuthWrapper{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.AuthContainer{
+    display: flex;
+    flex-direction: column;
+}

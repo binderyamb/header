@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'SilkScreen', cursive;
+}
+
+.NavbarMenuItems{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.NavbarMenuItems:hover{
+  color: lightseagreen;
+}
+
+.SelectedMenu , .SelectedMenuMobile{
+  text-decoration: none;
+  color:lightseagreen;
+}
+
+.MobileMenuItems{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.MobileMenuItems:hover{
+  border-left: 3px solid lightseagreen;
+  margin-right: 5px;
+}
+
+.SelectedMenuMobile {
+  text-decoration: none;
+  color: lightseagreen;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.MobileIcons{
+  margin-right: 7px;
+}
+
